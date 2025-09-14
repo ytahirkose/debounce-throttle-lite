@@ -1,5 +1,5 @@
 {
-  "name": "@yasartahirkose/debounce-throttle",
+  "name": "debounce-throttle-lite",
   "version": "1.0.0",
   "description": "Lightweight debounce and throttle utilities with TypeScript support",
   "type": "module",
@@ -43,10 +43,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ytahirkose/debounce-throttle.git"
+    "url": "https://github.com/ytahirkose/debounce-throttle-lite.git"
   },
   "bugs": {
-    "url": "https://github.com/ytahirkose/debounce-throttle/issues"
+    "url": "https://github.com/ytahirkose/debounce-throttle-lite/issues"
   },
-  "homepage": "https://github.com/ytahirkose/debounce-throttle#readme"
+  "homepage": "https://github.com/ytahirkose/debounce-throttle-lite#readme"
 }
