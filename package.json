@@ -1,0 +1,52 @@
+{
+  "name": "@yasartahirkose/debounce-throttle",
+  "version": "1.0.0",
+  "description": "Lightweight debounce and throttle utilities with TypeScript support",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint src/**/*.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "debounce",
+    "throttle",
+    "performance",
+    "utility",
+    "typescript",
+    "javascript",
+    "rate-limit"
+  ],
+  "author": "Yasar Tahir Kose",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@types/jest": "^29.5.8",
+    "@typescript-eslint/eslint-plugin": "^6.12.0",
+    "@typescript-eslint/parser": "^6.12.0",
+    "eslint": "^8.54.0",
+    "jest": "^29.7.0",
+    "rollup": "^3.29.4",
+    "@rollup/plugin-terser": "^0.4.4",
+    "ts-jest": "^29.1.1",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ytahirkose/debounce-throttle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ytahirkose/debounce-throttle/issues"
+  },
+  "homepage": "https://github.com/ytahirkose/debounce-throttle#readme"
+}
